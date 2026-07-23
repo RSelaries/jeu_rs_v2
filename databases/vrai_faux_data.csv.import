@@ -1,0 +1,14 @@
+[remap]
+
+importer=".questions_data_importer"
+type="Resource"
+uid="uid://b6gi1qjjlt5oj"
+path="res://.godot/imported/vrai_faux_data.csv-7599631dda7868035f9c42d0ff100cbc.res"
+
+[deps]
+
+source_file="res://databases/vrai_faux_data.csv"
+dest_files=["res://.godot/imported/vrai_faux_data.csv-7599631dda7868035f9c42d0ff100cbc.res"]
+
+[params]
+

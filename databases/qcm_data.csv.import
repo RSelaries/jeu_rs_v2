@@ -1,0 +1,14 @@
+[remap]
+
+importer=".questions_data_importer"
+type="Resource"
+uid="uid://baqdvnem55hkm"
+path="res://.godot/imported/qcm_data.csv-3eac349dc9c3af185c7e9b1312ca7ca2.res"
+
+[deps]
+
+source_file="res://databases/qcm_data.csv"
+dest_files=["res://.godot/imported/qcm_data.csv-3eac349dc9c3af185c7e9b1312ca7ca2.res"]
+
+[params]
+
