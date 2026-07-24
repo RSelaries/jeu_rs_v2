@@ -1,6 +1,6 @@
 [remap]
 
-importer=".questions_data_importer"
+importer="com.timothyqiu.godot-csv-importer"
 type="Resource"
 uid="uid://baqdvnem55hkm"
 path="res://.godot/imported/qcm_data.csv-3eac349dc9c3af185c7e9b1312ca7ca2.res"
@@ -12,3 +12,8 @@ dest_files=["res://.godot/imported/qcm_data.csv-3eac349dc9c3af185c7e9b1312ca7ca2
 
 [params]
 
+delimiter=0
+headers=true
+detect_numbers=true
+force_float=false
+detect_booleans=true

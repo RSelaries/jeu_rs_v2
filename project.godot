@@ -15,21 +15,30 @@ run/main_scene="uid://bua5k5556moc2"
 config/features=PackedStringArray("4.7")
 config/icon="res://icon.svg"
 
+[autoload]
+
+MultiplayerManager="*uid://oqvs3akhc7rb"
+PlayersManager="*uid://cbfoq011ltthw"
+
 [display]
 
-window/size/viewport_width=504
-window/size/viewport_height=896
+window/size/viewport_width=540
+window/size/viewport_height=960
 window/stretch/mode="canvas_items"
-window/stretch/aspect="keep_width"
+window/stretch/aspect="expand"
+window/handheld/orientation=1
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/csv_data_importer/plugin.cfg", "res://addons/questions_data/plugin.cfg")
+enabled=PackedStringArray("res://addons/csv_data_importer/plugin.cfg")
 
 [file_customization]
 
 folder_colors={
-"res://addons/": "gray"
+"res://addons/": "gray",
+"res://databases/": "pink",
+"res://scripts/": "purple",
+"res://ui/": "green"
 }
 
 [importer_defaults]
@@ -46,3 +55,4 @@ com.timothyqiu.godot-csv-importer={
 
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
